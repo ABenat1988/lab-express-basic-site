@@ -59,16 +59,16 @@ section.discography{
 }
 section.discography > *{
   padding: 10px;
-  flex-grow: 1;
-  flex-basis: 100%;
+  flex-basis: 0;
+  flex-grow: 2;
 }
 
 section.discography h2{
     font-size: 3rem;
+    flex-grow: 1;
+    flex-basis: 100%;
 }
 section.discography .album{
-    flex-basis: 0;
-    flex-grow: 2;
 }
 section.discography .album img{
     width: 150px;

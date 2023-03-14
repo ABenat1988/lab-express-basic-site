@@ -1,0 +1,39 @@
+h2{
+    font-size: 3rem;
+}
+section{
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    align-items: center;
+}
+section > *{
+    padding: 10px 60px;
+    flex-basis: 0;
+    flex-grow: 2;
+}
+
+section h3{
+    font-size: 2rem;
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+section h4{
+    font-size: 1.5rem;
+}
+section .album img{
+    width: 500px;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+section ul li {
+    padding: 10px;
+}
+section .info p {
+    text-align: justify;
+    line-height: 25px;
+}
