@@ -1,12 +1,93 @@
-nav {
-    background-color: darkgray;
+* {
+    font-family: "Lato", sans-serif;
+    ;
 }
 
 body {
+    background-color: rgb(0, 0, 0);
     text-align: center;
-    background-color: lightgray;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
 }
 
-p {
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0px 15px;
+    background-color: rgb(92, 91, 91);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 10px;
+}
+
+nav .left-section {
+    margin-left: 1%;
+}
+
+nav .right-section {
+    margin-right: 1%;
+}
+
+nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: rgb(43, 43, 43);
+}
+
+.formation {
+    text-align: left;
+    margin-left: 325px;
+}
+
+.image1 {
+    float: left;
+    margin-right: 20px
+}
+
+.text1 {
+    text-align: left;
+    margin-left: 20px;
+    display: block;
     
+}
+
+.early {
+    padding-top: 80px;
+    text-align: right;
+    margin-right: 325px;
+}
+
+.image2 {
+    float: right;
+    margin-left: 20px;
+}
+
+.text2 {
+    text-align: right;
+    margin-right: 20px;
+    display: block;
+    
+}
+
+.nevermind {
+    padding-top: 120px;
+    text-align: center;
+    margin-left: 220px;
+}
+
+.text3 {
+    text-align: center;
+    display: block;
 }
