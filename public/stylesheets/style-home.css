@@ -1,0 +1,86 @@
+header{
+    background-image: url(/images/home-header.jpg);
+    height: 80vh;
+    background-size: 100%;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header h1{
+    font-size: 5rem;
+    text-shadow: 7px 3px 6px black;
+}
+
+section.info{
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    align-items: center;
+}
+section.info > *{
+  padding: 10px;
+  flex-grow: 1;
+  flex-basis: 100%;
+}
+
+section.info h2{
+    font-size: 3rem;
+}
+section.info .image{
+    flex-grow: 1;
+    flex-basis: 0;
+}
+section.info p{
+    flex-basis: 0;
+    flex-grow: 2;
+}
+section.info a{
+    color: white;
+    background-color: rgb(92, 91, 91);
+    text-decoration: none;
+    margin: 23px 44%;
+    font-weight: bold;
+}
+section.info a:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+
+section.discography{
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    align-items: center;
+}
+section.discography > *{
+  padding: 10px;
+  flex-grow: 1;
+  flex-basis: 100%;
+}
+
+section.discography h2{
+    font-size: 3rem;
+}
+section.discography .album{
+    flex-basis: 0;
+    flex-grow: 2;
+}
+section.discography .album img{
+    width: 150px;
+}
+section.discography a{
+    color: white;
+    background-color: rgb(92, 91, 91);
+    text-decoration: none;
+    margin: 23px 44%;
+    font-weight: bold;
+}
+section.discography a:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
